@@ -1,0 +1,32 @@
+{
+  "ru": {
+    "translation": {
+      "Home": "glavniy",
+      "About": "o",
+      "Product": "",
+      "Download": "",
+      "Contacts": "",
+      "Section": "privet"
+    }
+  },
+  "en": {
+    "translation": {
+      "Home": "Home",
+      "About": "About",
+      "Product": "Products",
+      "Download": "Downloads",
+      "Contacts": "Contact",
+      "Section": "Hello"
+    }
+  },
+  "uz": {
+    "translation": {
+      "Home": "Asosiy",
+      "About": "Haqimizda",
+      "Product": "Mahsulotlar",
+      "Download": "Yuklanganlar",
+      "Contacts": "Aloqa",
+      "Section": "salom"
+    }
+  }
+}
