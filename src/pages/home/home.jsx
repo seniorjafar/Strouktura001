@@ -207,6 +207,9 @@ export const Home = () => {
           <Card key={index} icon={card.icon} title={card.title} description={card.description} />
         ))}
       </section>
+      <section>
+        
+      </section>
 
         
       

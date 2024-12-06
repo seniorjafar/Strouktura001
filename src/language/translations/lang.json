@@ -1,11 +1,11 @@
 {
   "ru": {
     "translation": {
-      "Home": "glavniy",
-      "About": "o",
-      "Product": "",
-      "Download": "",
-      "Contacts": "",
+      "Home": "Главнай",
+      "About": "О нем",
+      "Product": "Продукты",
+      "Download": "Загрузки",
+      "Contacts": "Коммуникация",
       "Section": "privet"
     }
   },
