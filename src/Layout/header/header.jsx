@@ -41,7 +41,7 @@ export function Header() {
   return (
     <>
       <div>
-        <header className=" sticky top-0 flex items-center justify-between bg-white p-4 shadow-md dark:bg-gray-900">
+        <header className="container-xl sticky top-0 flex items-center justify-between bg-white p-4 shadow-md dark:bg-gray-900">
           <div className={`flex gap-3 ${isOpen ? 'hidden' : 'block'}`}>
             <div className="flex items-center" >
                 <h1 className={`flex items-center text-3xl ${isOpen ? 'hidden' : 'block'} `}>Brend</h1>

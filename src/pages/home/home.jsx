@@ -168,7 +168,7 @@ export const Home = () => {
       {/* <h1>{t('Section')}</h1> */}
 
       {/* carousel */}
-      <section className='my-4'>
+      <section className='container-xl my-4'>
         <Carousel className="rounded-xl h-96" navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
               {new Array(length).fill("").map((_, i) => (
@@ -195,14 +195,14 @@ export const Home = () => {
       </section>
 
       {/* hero */}
-      <section className='xl:flex'>
+      <section className='container-xl xl:flex'>
         {heros.map((hero, i) => (
           <Hero key={i} img={hero.img} title={hero.title} text={hero.text} description={hero.description} />
         ))}
       </section>
       
       {/* cards data */}
-      <section className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 2lg:grid-cols-2 xl:grid-cols-4">
+      <section className="container-xl grid gap-4 sm:grid-cols-1 md:grid-cols-2 2lg:grid-cols-2 xl:grid-cols-4">
         {cards.map((card, index) => (
           <Card key={index} icon={card.icon} title={card.title} description={card.description} />
         ))}

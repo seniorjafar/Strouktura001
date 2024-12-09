@@ -3,7 +3,7 @@ import React from 'react'
   export const Contact = () => {
   return (
     <div>
-       <div className="my-6">
+       <div className="container-xl my-6">
             <div className="grid lg:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_#333] rounded-md text-[#333] font-[sans-serif] dark:bg-gray-800 dark:border-gray-700">
                 <div>
                     <h1 className="text-3xl font-extrabold text-indigo-500">Let's Talk</h1>

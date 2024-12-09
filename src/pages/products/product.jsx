@@ -73,7 +73,7 @@ export const Products = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="p-3">
+    <div className="container-xl p-3">
       {/* Products grid */}
       <section className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {currentItems.map((product) => (
